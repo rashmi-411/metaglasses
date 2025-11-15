@@ -11,7 +11,7 @@ image_files = [f for f in current_dir if f.lower().endswith(('.jpg', '.png', '.j
 if image_files:
     # Use the first available image
     #image_path = image_files[0]
-    image_path = "C:\Users\LENOVO\OneDrive\Desktop\drublet\image.png"  # specify your image file here
+    image_path = "C:\\Users\\LENOVO\\OneDrive\\Desktop\\drublet\\image.png"  # specify your image file here
     print(f"Using image: {image_path}")
     
     # Perform text recognition
