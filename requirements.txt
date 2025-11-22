@@ -1,0 +1,14 @@
+# Python package requirements for metaglasses
+# Note: some packages (e.g., pytesseract) require external system dependencies
+# (Tesseract OCR). For GPU support install appropriate CUDA and Torch builds.
+
+opencv-python
+ultralytics
+torch
+numpy
+pillow
+pytesseract
+easyocr
+requests
+tqdm
+firebase-admin
