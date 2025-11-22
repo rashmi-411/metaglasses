@@ -7,12 +7,13 @@
 
 MetaGlasses is designed to integrate AI-driven vision and voice capabilities with data services. The repo is organized into modules that handle OCR (optical character recognition), AI functions, voice-based command processing, and data connectivity — likely supporting a smart-glass or augmented-reality application. Its architecture is modular, making it flexible for extending or integrating additional features.
 
+This project is developed as part of an AI/ML Internship at **Drublet Innovation Pvt. Ltd.**, where the focus is on building practical, real-world AI solutions that enhance user accessibility, productivity, and interactive experiences.
+
 ---
+##  About Drublet Innovation Pvt. Ltd.
 
-## Repository Structure
-
-Here is a breakdown of the main folders and files in this repository:
-
+**Drublet Innovation Pvt. Ltd.** is a forward-thinking technology company specializing in Artificial Intelligence, Machine Learning, IoT, and Automation solutions.  
+The company empowers interns and researchers to work on cutting-edge technologies and real-world applications.
 
 ---
 
@@ -86,3 +87,5 @@ Add CONTRIBUTING.md
 Add usage examples and screenshots
 Create a LICENSE file
 Add automated tests for OCR, AI, and voice modules
+
+
