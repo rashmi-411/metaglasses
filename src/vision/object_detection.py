@@ -10,8 +10,17 @@ cap = cv2.VideoCapture(0)
 cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
 cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
 
+# Add a small delay for camera to initialize
+import time
+time.sleep(1)
+
 if not cap.isOpened():
     print("Camera not accessible.")
+    print("Troubleshooting tips:")
+    print("1. Check if camera is connected")
+    print("2. Make sure no other application is using the camera")
+    print("3. Check camera permissions in Windows Settings")
+    print("4. Try restarting the application")
     exit()
 
 try:
@@ -27,7 +36,8 @@ try:
         # Run YOLO detection
         results = model(frame, conf=0.25)  # Lower confidence threshold for more detections
         
-        # Draw detection results
+        # Draw detection results - initialize with original frame
+        annotated_frame = frame
         for r in results:
             annotated_frame = r.plot()
             
